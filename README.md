@@ -16,7 +16,7 @@ To clone this project follow the steps
 
     2.Open git bash and change the current working directory to the location where you want the cloned directory.
 
-    3.type git clone and past the http url
+    3.type git clone and paste the https url
 
 ```bash
   $ git clone https://github.com/USERNAME/REPOSITORY
@@ -39,5 +39,6 @@ To see the live preview of project
 
 ## Contributing
 
-If you have any better style or suggestion then please do submit a pull request or open an issue in this repository
+If you have any better style or suggestion then please do submit a pull request or open an issue in this repository.
+Comment if you have any improvments or doubts. 
 Contributions are always welcome!
