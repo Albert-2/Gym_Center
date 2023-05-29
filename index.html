@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Project0</title>
+  </head>
+  <body>
+    <navbar
+      class="flex justify-between items-center w-full font-bold py-5 px-5 bg-gray-600"
+    >
+      <div class="logo">
+        <img src="images/logo.png.webp" alt="logo" />
+      </div>
+      <div
+        class="menu md:static md:min-h-fit min-h-[35vh] absolute md:w-auto w-full bg-transparent left-0 top-[-100%] flex items-center px-5"
+      >
+        <ul
+          class="flex md:flex-row flex-col m-auto items-center gap-[4.5vw] text-xl"
+        >
+          <li class="hover:cursor-pointer hover:text-gray-400">Home</li>
+          <li class="hover:cursor-pointer hover:text-gray-400">About Us</li>
+          <li class="hover:cursor-pointer hover:text-gray-400">Classes</li>
+          <li class="hover:cursor-pointer hover:text-gray-400">Services</li>
+        </ul>
+      </div>
+      <div class="flex gap-4 items-center">
+        <button
+          class="border-2 border-orange-600 text-white font-semibold text-xl px-5 py-2 hover:bg-orange-600"
+        >
+          sign up
+        </button>
+        <ion-icon
+          name="menu"
+          class="text-5xl md:hidden cursor-pointer text-white"
+          onclick="onToggle(this)"
+        ></ion-icon>
+      </div>
+    </navbar>
+    <div
+      class="w-full min-h-screen bg-no-repeat bg-cover border-2 border-black"
+      style="background-image: url(images/MainBackground.jpg)"
+    >
+      <main class="my-96 mx-10">
+        <div class="font-bold">
+          <h2 class="tracking-[0.40em] my-5 text-xl text-white">
+            SHAPE YOUR BODY
+          </h2>
+          <h3 class="text-5xl leading-[1.25em] text-white">
+            BE STRONG <span class="text-orange-600">TRAINING</span> HARD
+          </h3>
+        </div>
+        <button
+          class="border-2 border-orange-600 text-white font-semibold text-xl mt-5 px-8 py-5 hover:bg-orange-600"
+        >
+          GET INFO
+        </button>
+      </main>
+    </div>
+    <div class="div-2 font-bold text-center border-2 border-black bg-black">
+      <div>
+        <h5 class="text-orange-600 mb-2 text-2xl tracking-[0.35rem]">
+          WHY CHOSE US?
+        </h5>
+        <h2 class="text-4xl text-white">PUSH YOUR LIMITS FORWARD</h2>
+      </div>
+      <div
+        class="my-10 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 w-[92%]"
+      >
+        <div>
+          <div class="icon m-auto">
+            <img
+              src="images/treadmill.png"
+              alt="icons"
+              class="m-auto"
+              style="
+                filter: invert(48%) sepia(35%) saturate(1550%)
+                  hue-rotate(334deg) brightness(101%) contrast(88%);
+              "
+            />
+          </div>
+          <div class="info my-5 text-white">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
+            dicta dignissimos labore?
+          </div>
+        </div>
+        <div>
+          <div class="icon m-auto">
+            <img
+              src="images/plan.png"
+              alt="icons"
+              class="m-auto"
+              style="
+                filter: invert(48%) sepia(35%) saturate(1550%)
+                  hue-rotate(334deg) brightness(101%) contrast(88%);
+              "
+            />
+          </div>
+          <div class="info my-5 text-white">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
+            dicta dignissimos labore?
+          </div>
+        </div>
+        <div>
+          <div class="icon m-auto">
+            <img
+              src="images/dumbell.png"
+              alt="icons"
+              class="m-auto"
+              style="
+                filter: invert(48%) sepia(35%) saturate(1550%)
+                  hue-rotate(334deg) brightness(101%) contrast(88%);
+              "
+            />
+          </div>
+          <div class="info my-5 text-white">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
+            dicta dignissimos labore?
+          </div>
+        </div>
+        <div>
+          <div class="icon m-auto">
+            <img
+              src="images/heart-rate-monitor.png"
+              alt="icons"
+              class="m-auto"
+              style="
+                filter: invert(48%) sepia(35%) saturate(1550%)
+                  hue-rotate(334deg) brightness(101%) contrast(88%);
+              "
+            />
+          </div>
+          <div class="info my-5 text-white">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
+            dicta dignissimos labore?
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-white bg-[#151515] font-bold">
+      <div class="text-center mb-10">
+        <h5 class="text-orange-600 mb-2 text-2xl tracking-[0.35rem]">
+          OUR CLASSES
+        </h5>
+        <h2 class="text-4xl">WHAT WE CAN OFFER</h2>
+      </div>
+      <div>
+        <div
+          class="w-[90%] one grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 my-5 m-auto"
+        >
+          <div
+            class="min-w-[40%] m-auto flex flex-col text-left my-3 md:mx-4 lg:mx-4 sm:mx-4"
+          >
+            <div class="image">
+              <img src="images/Weightlifting.webp" alt="WEIGHTLIFTING" />
+            </div>
+            <div class="name">
+              <h5 class="text-orange-600 text-sm tracking-[0.25em]">
+                STRENGTH
+              </h5>
+              <h2 class="text-xl">WEIGHTLIFTING</h2>
+            </div>
+          </div>
+          <div
+            class="min-w-[40%] m-auto flex flex-col text-left my-3 md:mx-4 lg:mx-4 sm:mx-4"
+          >
+            <div class="image">
+              <img src="images/Indoor.webp" alt="CYCLING" />
+            </div>
+            <div class="name">
+              <h5 class="text-orange-600 text-sm tracking-[0.25em]">CARDIO</h5>
+              <h2 class="text-xl">INDOOR CYCLING</h2>
+            </div>
+          </div>
+          <div
+            class="min-w-[40%] m-auto flex flex-col text-left my-3 md:mx-4 lg:mx-4 sm:mx-4"
+          >
+            <div class="image">
+              <img src="images/KETTLEBELL.webp" alt="KETTLEBELL" />
+            </div>
+            <div class="name">
+              <h5 class="text-orange-600 text-sm tracking-[0.25em]">
+                STRENGTH
+              </h5>
+              <h2 class="text-xl">KETTLEBELL POWER</h2>
+            </div>
+          </div>
+          <div
+            class="min-w-[40%] m-auto flex flex-col text-left my-3 md:mx-4 lg:mx-4 sm:mx-4"
+          >
+            <div class="image">
+              <img src="images/KETTLEBELL.webp" alt="KETTLEBELL" />
+            </div>
+            <div class="name">
+              <h5 class="text-orange-600 text-sm tracking-[0.25em]">
+                STRENGTH
+              </h5>
+              <h2 class="text-xl">KETTLEBELL POWER</h2>
+            </div>
+          </div>
+        </div>
+        <div class="two grid md:grid-cols-1 lg:grid-cols-2 w-fit m-auto">
+          <div class="mx-5">
+            <div class="image">
+              <img src="images/cycling.webp" alt="CYCLING" />
+            </div>
+            <div class="name mb-5 mt-2">
+              <h5 class="text-orange-600 text-sm tracking-[0.25em]">CARDIO</h5>
+              <h2 class="text-xl">INDOOR CYCLING</h2>
+            </div>
+          </div>
+          <div class="mx-5">
+            <div class="image">
+              <img src="images/boxing.webp" alt="BOXING" />
+            </div>
+            <div class="name mb-5 mt-2">
+              <h5 class="text-orange-600 text-sm tracking-[0.25em]">
+                TRAINING
+              </h5>
+              <h2 class="text-xl">BOXING</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="w-full h-[50vh] bg-no-repeat bg-cover bg-center relative"
+      style="background-image: url(images/PushUps.webp)"
+    >
+      <div
+        class="text-center absolute top-[30%] md:left-[15%] flex flex-col gap-3 items-center lg:left-[35%] m-auto"
+      >
+        <h2 class="font-bold text-4xl text-white">
+          REGISTRATION NOW TO GET MORE DEALS
+        </h2>
+        <h5 class="font-bold text-xl text-orange-600">
+          WHERE HEALTH, BEAUTY AND FITNESS MEET.
+        </h5>
+        <button
+          class="border-2 border-orange-600 text-white font-semibold text-xl p-4 hover:bg-orange-600"
+        >
+          APPOINTMENT
+        </button>
+      </div>
+    </div>
+    <div class="bg-[#151515] text-white">
+      <div class="head-content text-center mb-5">
+        <h6 class="text-orange-600 mb-2 text-xl font-bold">OUR PLANS</h6>
+        <h2 class="font-bold text-white text-4xl">CHOOSE YOUR PRICING PLAN</h2>
+      </div>
+      <div
+        class="flex flex-col justify-between gap-5 lg:flex-row min-w-[50%] max-w-[90%] m-auto"
+      >
+        <div
+          id="one"
+          class="child border-2 border-white flex flex-col gap-3 text-center w-[65%] m-auto"
+        >
+          <h4 class="text-gray-500 font-bold text-2xl">Class drop-in</h4>
+          <h1 class="font-bold text-orange-600 text-5xl">$ 39.0</h1>
+          <p class="font-semibold">SINGLE CLASS</p>
+          <ul class="font-semibold">
+            <li>Free riding</li>
+            <li>Unlimited equipments</li>
+            <li>Personal trainer</li>
+            <li>Weight losing classes</li>
+            <li>Month to Month</li>
+            <li>No time restriction</li>
+          </ul>
+          <button class="effect1 text-white font-semibold bg-[#333333] p-3">
+            ENROLL NOW
+          </button>
+        </div>
+        <div
+          id="two"
+          class="child border-2 border-white flex flex-col gap-3 text-center w-[65%] m-auto"
+        >
+          <h4 class="text-gray-500 font-bold text-2xl">12 Month unlimited</h4>
+          <h1 class="font-bold text-orange-600 text-5xl">$ 99.0</h1>
+          <p class="font-semibold">SINGLE CLASS</p>
+          <ul class="font-semibold">
+            <li>Free riding</li>
+            <li>Unlimited equipments</li>
+            <li>Personal trainer</li>
+            <li>Weight losing classes</li>
+            <li>Month to Month</li>
+            <li>No time restriction</li>
+          </ul>
+          <button class="effect2 text-white font-semibold bg-[#333333] p-3">
+            ENROLL NOW
+          </button>
+        </div>
+        <div
+          id="three"
+          class="child border-2 border-white flex flex-col gap-3 text-center w-[65%] m-auto"
+        >
+          <h4 class="text-gray-500 font-bold text-2xl">6 Month unlimited</h4>
+          <h1 class="font-bold text-orange-600 text-5xl">$ 59.0</h1>
+          <p class="font-semibold">SINGLE CLASS</p>
+          <ul class="font-semibold">
+            <li>Free riding</li>
+            <li>Unlimited equipments</li>
+            <li>Personal trainer</li>
+            <li>Weight losing classes</li>
+            <li>Month to Month</li>
+            <li>No time restriction</li>
+          </ul>
+          <button class="effect3 text-white font-semibold bg-[#333333] p-3">
+            ENROLL NOW
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-black text-white border-2 border-black">
+      <div
+        class="flex flex-col lg:flex-row text-center xl:w-[70%] md:w-[80%] max-w-[90%] m-auto lg:items-center justify-between gap-8 mt-10"
+      >
+        <div class="flex flex-row gap-4 hover:cursor-pointer items-center">
+          <div class="bg-orange-600 p-7 rounded-[50%]">
+            <i class="fa-sharp fa-solid fa-location-dot fa-2xl"></i>
+          </div>
+          <div>333 Middle Winchendon Rd, Rindge, NH 03461</div>
+        </div>
+        <div class="flex flex-row gap-4 hover:cursor-pointer items-center">
+          <div class="bg-orange-600 p-7 rounded-[50%]">
+            <i class="fa-solid fa-mobile-screen fa-2xl"></i>
+          </div>
+          <div>125-711-811,125-668-886</div>
+        </div>
+        <div class="flex flex-row gap-4 hover:cursor-pointer items-center">
+          <div class="bg-orange-600 p-7 rounded-[50%]">
+            <i class="fa-sharp fa-solid fa-envelope fa-2xl"></i>
+          </div>
+          <div>Support.gymcenter@gmail.com</div>
+        </div>
+      </div>
+      <div
+        class="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 xl:w-[70%] md:w-[80%] max-w-[90%] m-auto justify-between gap-4 mt-10"
+      >
+        <div class="md:w-[65%] w-[100%]">
+          <img src="images/logo.png.webp" alt="logo" class="mb-5" />
+          <p class="text-left text-gray-500">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+            recusandae libero itaque optio doloribus atque sapiente saepe
+            facilis harum quam?
+          </p>
+        </div>
+        <div class="leading-7">
+          <h2 class="text-xl">Useful links</h2>
+          <ul>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Classes</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="leading-7">
+          <h2 class="text-xl">Support</h2>
+          <ul>
+            <li>Login</li>
+            <li>MyAcount</li>
+            <li>Subscribe</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="leading-7">
+          <h2 class="text-xl">Tips & Guides</h2>
+          <ul>
+            <li>Physical fitness may help prevent depression, anxiety</li>
+            <li class="text-gray-400">3 min read 20 Comment</li>
+          </ul>
+          <ul>
+            <li>Fitness: The best exercise to lose belly fat and tone up...</li>
+            <li class="text-gray-400">3 min read 20 Comment</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div
+      class="bg-black font-semibold text-center text-white p-5 border-2 border-gray-700"
+    >
+      <p>
+        Copyright ©2023 All rights reserved | This template is made with
+        <i class="fa-solid fa-heart" style="color: #f10909"></i> by albert
+      </p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
