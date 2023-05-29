@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="input.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -31,7 +31,7 @@
         <img src="images/logo.png.webp" alt="logo" />
       </div>
       <div
-        class="menu md:static md:min-h-fit min-h-[35vh] absolute md:w-auto w-full bg-transparent left-0 top-[-100%] flex items-center px-5"
+        class="menu md:static md:min-h-fit min-h-[45vh] absolute md:w-auto w-full bg-transparent left-0 top-[-100%] flex items-center px-5"
       >
         <ul
           class="flex md:flex-row flex-col m-auto items-center gap-[4.5vw] text-xl"
@@ -40,11 +40,16 @@
           <li class="hover:cursor-pointer hover:text-gray-400">About Us</li>
           <li class="hover:cursor-pointer hover:text-gray-400">Classes</li>
           <li class="hover:cursor-pointer hover:text-gray-400">Services</li>
+          <li
+            class="hover:cursor-pointer hover:bg-orange-600 hover:text-white md:hidden block border-2 border-orange-600 text-orange-600 font-semibold text-xl px-5 py-2"
+          >
+            Sign up
+          </li>
         </ul>
       </div>
       <div class="flex gap-4 items-center">
         <button
-          class="border-2 border-orange-600 text-white font-semibold text-xl px-5 py-2 hover:bg-orange-600"
+          class="border-2 border-orange-600 text-white font-semibold text-xl px-5 py-2 hover:bg-orange-600 md:block hidden"
         >
           sign up
         </button>
