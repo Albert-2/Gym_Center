@@ -31,11 +31,11 @@ To see the live preview of project
 ![image](https://github.com/Albert-2/Gym_Center/assets/90373859/117858ee-4b33-43dd-835c-8682cc338a05)
 ![image](https://github.com/Albert-2/Gym_Center/assets/90373859/c7306bc0-e636-4d87-a827-2076f70423e1)
 ## Mobbile View
-![image](https://github.com/Albert-2/Gym_Center/assets/90373859/2706e41e-20b9-4c0c-b513-1474e834f2b0)
-![image](https://github.com/Albert-2/Gym_Center/assets/90373859/ebce6f43-786e-4a11-a448-6fac5903fcf6)
-![image](https://github.com/Albert-2/Gym_Center/assets/90373859/5ca63c2e-234b-4f0f-95a6-8ed8d8149b74)
-![image](https://github.com/Albert-2/Gym_Center/assets/90373859/42fd5eac-d955-4249-a89e-242825644f08)
-
+![image](https://github.com/Albert-2/Gym_Center/assets/90373859/c27caf3f-c7b9-48cf-9fc4-a54d3087c1fb)
+![image](https://github.com/Albert-2/Gym_Center/assets/90373859/6d7034db-798d-47f9-9292-667922544d97)
+![image](https://github.com/Albert-2/Gym_Center/assets/90373859/24f54c82-b01a-4782-9584-53aa5d40edb5)
+![image](https://github.com/Albert-2/Gym_Center/assets/90373859/cd0c9ab3-a675-476c-81fb-2f8a95c05112)
+![image](https://github.com/Albert-2/Gym_Center/assets/90373859/ed3773d2-78d8-4f5c-a797-65afd675e573)
 
 ## Contributing
 
