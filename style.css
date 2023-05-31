@@ -554,10 +554,6 @@ video {
   top: 10%;
 }
 
-.top-\[30\%\] {
-  top: 30%;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -669,6 +665,10 @@ video {
 
 .w-\[100\%\] {
   width: 100%;
+}
+
+.w-\[200px\] {
+  width: 200px;
 }
 
 .w-\[65\%\] {
@@ -1029,10 +1029,6 @@ video {
     position: static;
   }
 
-  .md\:left-\[15\%\] {
-    left: 15%;
-  }
-
   .md\:mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -1077,10 +1073,6 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:left-\[35\%\] {
-    left: 35%;
-  }
-
   .lg\:mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
