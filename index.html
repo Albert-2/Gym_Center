@@ -250,9 +250,7 @@
       class="w-full h-[50vh] bg-no-repeat bg-cover bg-center flex"
       style="background-image: url(images/PushUps.webp)"
     >
-      <div
-        class="text-center m-auto flex gap-3 flex-col items-center"
-      >
+      <div class="text-center m-auto flex gap-3 flex-col items-center">
         <h2 class="font-bold text-4xl text-white">
           REGISTRATION NOW TO GET MORE DEALS
         </h2>
@@ -276,9 +274,9 @@
       >
         <div
           id="one"
-          class="child border-2 border-white flex flex-col gap-3 text-center w-[65%] m-auto"
+          class="child group hover:text-black hover:bg-white transition-all delay-200 border-2 border-white flex flex-col gap-3 text-center max-w-[500px] w-[90%] m-auto"
         >
-          <h4 class="text-gray-500 font-bold text-2xl">Class drop-in</h4>
+          <h4 class="font-bold text-2xl">Class drop-in</h4>
           <h1 class="font-bold text-orange-600 text-5xl">$ 39.0</h1>
           <p class="font-semibold">SINGLE CLASS</p>
           <ul class="font-semibold">
@@ -289,15 +287,17 @@
             <li>Month to Month</li>
             <li>No time restriction</li>
           </ul>
-          <button class="effect1 text-white font-semibold bg-[#333333] p-3">
+          <button
+            class="effect1 group-hover:bg-orange-600 transition-all delay-200 text-white font-semibold bg-[#333333] p-3"
+          >
             ENROLL NOW
           </button>
         </div>
         <div
           id="two"
-          class="child border-2 border-white flex flex-col gap-3 text-center w-[65%] m-auto"
+          class="child group hover:text-black hover:bg-white transition-all delay-200 border-2 border-white flex flex-col gap-3 text-center max-w-[500px] w-[90%] m-auto"
         >
-          <h4 class="text-gray-500 font-bold text-2xl">12 Month unlimited</h4>
+          <h4 class="font-bold text-2xl">12 Month unlimited</h4>
           <h1 class="font-bold text-orange-600 text-5xl">$ 99.0</h1>
           <p class="font-semibold">SINGLE CLASS</p>
           <ul class="font-semibold">
@@ -308,15 +308,17 @@
             <li>Month to Month</li>
             <li>No time restriction</li>
           </ul>
-          <button class="effect2 text-white font-semibold bg-[#333333] p-3">
+          <button
+            class="effect2 group-hover:bg-orange-600 text-white transition-all delay-200 font-semibold bg-[#333333] p-3"
+          >
             ENROLL NOW
           </button>
         </div>
         <div
           id="three"
-          class="child border-2 border-white flex flex-col gap-3 text-center w-[65%] m-auto"
+          class="child group hover:text-black hover:bg-white transition-all delay-200 border-2 border-white flex flex-col gap-3 text-center max-w-[500px] w-[90%] m-auto"
         >
-          <h4 class="text-gray-500 font-bold text-2xl">6 Month unlimited</h4>
+          <h4 class="font-bold text-2xl">6 Month unlimited</h4>
           <h1 class="font-bold text-orange-600 text-5xl">$ 59.0</h1>
           <p class="font-semibold">SINGLE CLASS</p>
           <ul class="font-semibold">
@@ -327,7 +329,9 @@
             <li>Month to Month</li>
             <li>No time restriction</li>
           </ul>
-          <button class="effect3 text-white font-semibold bg-[#333333] p-3">
+          <button
+            class="effect3 group-hover:bg-orange-600 transition-all delay-200 text-white font-semibold bg-[#333333] p-3"
+          >
             ENROLL NOW
           </button>
         </div>
@@ -335,25 +339,31 @@
     </div>
     <footer class="bg-black text-white border-2 border-black">
       <div
-        class="flex flex-col lg:flex-row text-center xl:w-[70%] md:w-[80%] max-w-[90%] m-auto lg:items-center justify-between gap-8 mt-10"
+        class="flex flex-col lg:flex-row text-center lg:min-w-[1000px] max-w-[75%] m-auto lg:items-center justify-between gap-8 mt-10"
       >
         <div class="flex flex-row gap-4 hover:cursor-pointer items-center">
           <div class="bg-orange-600 p-7 rounded-[50%]">
             <i class="fa-sharp fa-solid fa-location-dot fa-2xl"></i>
           </div>
-          <div>333 Middle Winchendon Rd, Rindge, NH 03461</div>
+          <div class="flex-1">
+            <p>333 Middle Winchendon Rd, Rindge, NH 03461</p>
+          </div>
         </div>
         <div class="flex flex-row gap-4 hover:cursor-pointer items-center">
           <div class="bg-orange-600 p-7 rounded-[50%]">
             <i class="fa-solid fa-mobile-screen fa-2xl"></i>
           </div>
-          <div>125-711-811,125-668-886</div>
+          <div class="flex-1">
+            <p>125-711-811<br />125-668-886</p>
+          </div>
         </div>
         <div class="flex flex-row gap-4 hover:cursor-pointer items-center">
           <div class="bg-orange-600 p-7 rounded-[50%]">
             <i class="fa-sharp fa-solid fa-envelope fa-2xl"></i>
           </div>
-          <div>Support.gymcenter@gmail.com</div>
+          <div class="flex-1">
+            <p>Support.gymcenter@gmail.com</p>
+          </div>
         </div>
       </div>
       <div
